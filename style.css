@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+   
+    
+}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: black;
+    overflow: hidden;
+    
+}
+.navbar a {
+    padding:10px 16px;
+    float:left;
+    color: white;
+   
+}
+.nav-icon:hover{
+    background-color: gray;
+}
+.icon-right{
+    float: right !important;
+}
+/* header section */
+
+.container{
+    padding: 48px 16px;
+    text-align: center;
+    /* font-weight: 500; */
+}
+.container h1{
+    font-weight:700;
+    font-size: 48px;
+}
+header h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -35px;
+}
+.background-highlihter{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+/* jane photo */
+
+.jane-photo{
+    max-width: 100%;
+    height: auto;
+}
+.jane-display-left {
+    position: absolute;
+    top: 100%;
+    color: white;
+    padding: 12px 24px;
+    padding-bottom: 0px;
+    
+}
+.text-white{
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 15px 0px;
+}
+.jumbo{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.subscribe-button{
+    font-size: 18px;
+    padding: 12px  24px;
+    font-weight: 400;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    opacity: .5;
+}
+.subscribe-button:hover{
+    
+    opacity: 1;
+}
+.header-section{
+    margin-bottom: -21px;
+}
+
+
+/* content section */
+.content-section{
+    padding: 25px 16px;
+    background-color:#cac3c3;
+    border: 1px solid black;
+    height: 1600px;
+    margin-bottom: 150px;
+    
+}
+.asidebar{
+    border: 1px solid red;
+    width: 60%;
+    padding: 10px 15px;
+    background-color: white;
+}
+.top-1{
+    border: 1px dashed blueviolet;
+    
+}
+.top-1 h3, .top-1  h5{
+    text-align: center;s
+    font-weight: 400;
+}
+.top-1 h3{
+    font-size: 24px;
+}
+.top-1 h5{
+    margin-top: -16px;
+    font-size: 18px;
+}
+.top-1 p{
+    text-align: justify;
+}
+
+.float-class{
+    float: left;
+}
+/* top-2 of  contentsection */
+.top-2 button{
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.top-2-button{
+    float: right;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px  solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.top-2-button span{
+    padding: 0px  8px ;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    margin-left: 5px;
+
+    
+}
+/* top-bottom of the maincontent */
+.top-bottom-image{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding: 0px 0px 16px;
+    margin-top: 10px;
+    
+}
+.top-bottom-inside{
+    margin-left: 23%;
+    margin-top: 30px;  
+    text-align: justify; 
+}
+.top-bottom-inside h4, .side-content .top-side-1-bottom h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.top-bottom-inside p{
+    font-size: 15px;
+    margin-top: -15px;
+}
+.top-bottom-inside span{
+    font-size: 15px;
+    color: #c3c2c2;
+    
+}
+
+
+
+/* side content */
+
+.side-content{
+    width: 35%;
+    /* border: 1px solid black; */
+    margin-left: 26px;
+}
+
+.side-content .top-side-1-bottom{
+    margin-top: -5px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.side-content .top-side-1-bottom p{
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+/* about card && popular post */
+.side-content .top-side-2{
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.side-content .top-side-2 h4{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.side-content .top-side-2 img{
+    height: 80px;
+    width: 80px;
+}
+/* .side-content .top-side-2 ul{
+    list-style-type: none;
+    margin-top: -26px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+} */
+
+/* .top-side-2 .popular-post-title{
+   
+     display: inline-block;
+}
+.popular-post-shop{
+    margin-top: -28px;
+    padding: 20px;
+}
+.popular-post-title{
+    margin-left: 20px;
+} */
+
+.top-side-2-inside{
+    margin-top: -10px;
+}

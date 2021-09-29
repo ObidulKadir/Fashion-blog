@@ -220,7 +220,7 @@ header h6{
     background-color: white;
    
 }
-.side-content .top-side-2 h4{
+.side-content .top-side-2 h4, .top-side-3-header h1, .top-side-4-header h1, .top-side-5-header h1,.top-side-6 h1, .top-side-7 h1{
     background-color: black;
     color: white;
     padding: 8px 16px;
@@ -241,8 +241,9 @@ header h6{
 }
 .top-side-2 ul li{
     /* border: 1px solid  red; */
+    
     height: 90px;
-    padding: 8px 5px 0px 8px;
+    padding: 10px 5px 0px 8px;
     border-bottom: 1px  solid rgb(218, 216, 216);
 }
 .top-side-2 ul li:last-child{
@@ -279,3 +280,112 @@ header h6{
     margin-top: -10px;
 }
 
+/* top-side-3 */
+
+.top-side-3{
+    margin-top: 20px;
+    height: 300px;
+    background-color: white;
+}
+.top-side-3 .top-side-3-text{
+    /* border: 1px solid dimgray; */
+    display: flex;
+    justify-content: center;
+    height: 225px;
+    margin: 15px 15px 0px 15px;
+    background-color: rgb(194, 191, 191);
+}
+.top-side-3 .top-side-3-text p{
+    padding-top: 80px;
+    color: white;
+    font-weight: 400;
+}
+
+/* top-side-4s */
+.top-side-4{
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+}
+.top-side-4 p span{
+    
+    padding: 2px 10px;
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: rgb(231, 231, 231);
+    
+}
+.top-side-4-text span:first-child{
+    background-color: black;
+    color: white;
+}
+.top-side-4-text{
+   
+    margin-top: -15px;
+    padding: 10px 0px;
+}
+
+/* inspirational */
+.top-side-5{
+    margin-top: 20px;
+    background-color: white;
+    height: auto;
+
+}
+.top-side-5-img{
+    margin-top: -15px;
+    padding: 7px;
+}
+
+.top-side-5-img-1{
+    display: flex;
+    
+   
+}
+.top-side-5-img-1 img{
+    padding: 7px;
+}
+/* follow me */
+
+.top-side-6,.top-side-7{
+    margin-top: 30px;
+    height: auto;
+    background-color: white;
+}
+.top-side-6-icon{
+    margin: 10px 0px 20px 10px;
+    padding-bottom: 10px;
+}
+.top-side-6 .top-side-6-icon i{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+}
+/* subscribe */
+.top-side-7 .top-side-7-subscribe{
+    margin-top: -13px;
+    padding: 10px;
+  
+
+}
+.top-side-7-subscribe input{
+    
+    width: 95%;
+    padding: 10px;
+    border: 1px solid rgb(218, 214, 214);
+}
+
+.top-side-7 button{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #d61861;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+} 

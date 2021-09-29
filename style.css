@@ -90,17 +90,14 @@ header h6{
 .content-section{
     padding: 16px 16px;
     background-color:#cac3c3;
-    border: 1px solid black;
+    
     height: 100%;
-    margin-bottom: 150px;
     overflow: hidden;
     
 }
 .asidebar{
-    /* border: 1px solid red;  */
+    
      width: 60%;
-    /* padding: 10px 15px; */
-    /* background-color: white; */ 
 
 }
 .asidebar-inside-one, .asidebar-inside-two, .asidebar-inside-three{
@@ -114,10 +111,7 @@ header h6{
     margin-top: 20px;
     padding-bottom: 0;
 }
-/* .top-1{
-    border: 1px dashed blueviolet;
-    
-} */
+
 .top-1 h3, .top-1  h5{
     text-align: center;
     font-weight: 400;
@@ -341,8 +335,6 @@ header h6{
 
 .top-side-5-img-1{
     display: flex;
-    
-   
 }
 .top-side-5-img-1 img{
     padding: 7px;
@@ -364,11 +356,12 @@ header h6{
     color: black;
 }
 /* subscribe */
+.top-side-7{
+    width: 100;
+}
 .top-side-7 .top-side-7-subscribe{
     margin-top: -13px;
     padding: 10px;
-  
-
 }
 .top-side-7-subscribe input{
     
@@ -381,7 +374,7 @@ header h6{
     display: block;
     width: 100%;
     border: none;
-    background-color: #d61861;
+    background-color: #dd4c4c;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
@@ -389,3 +382,35 @@ header h6{
     margin-top: 20px;
     color: white;
 } 
+.top-side-7 button:hover{
+    background-color: rgb(211, 208, 205);
+    color: black;
+}
+
+/* footer section */
+
+footer{
+    
+    padding: 50px;
+    background-color: dimgray;
+    height: 100px;
+    
+}
+
+footer a{
+    
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer a:hover{
+    background-color: lightgray;
+    color: black;
+}
+footer p{
+    font-size: 15px;
+    color: white;
+    padding: 10px 0 0 0;
+}
